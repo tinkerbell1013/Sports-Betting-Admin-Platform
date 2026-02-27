@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sports-betting-admin"
+version = "0.1.0"
+description = "Admin API for sports betting platform"
+authors = ["Oliver"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.0"
+sqlalchemy = "^2.0.25"
+asyncpg = "^0.29.0"
+pydantic = "^2.6.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
