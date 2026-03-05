@@ -7,7 +7,6 @@ Your task is to build a REST API and a frontend for an internal platform designe
 There's a database schema with some sample data set up for you. Feel free to extend or insert more test data into it if it helps improve the platform.
 
 ### Setup
-
 1. Clone this repository
 2. Optionally use the environment file:
    ```bash
@@ -27,7 +26,6 @@ There's a database schema with some sample data set up for you. Feel free to ext
    ```bash
    PGPASSWORD=analyst_password psql -p 5432 -h localhost -U analyst_user -d analyst_platform
    ```
-
 ### Database Schema
 
 The database includes the following main tables:
