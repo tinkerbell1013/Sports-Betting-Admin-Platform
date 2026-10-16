@@ -121,21 +121,6 @@ export function Bets() {
       {selectedBetId !== null && (
         <section aria-label={`Audit history for bet ${selectedBetId}`}>
           <h3>Audit History</h3>
-
-          {isAuditLoading && (
-            <p role="status">Loading audit history...</p>
-          )}
-
-          {auditError && <p role="alert">{auditError}</p>}
-
-          {!isAuditLoading && !auditError && (
-            audit.length > 0 ? (
-              <AuditPanel audits={audit} />
-            ) : (
-              <p>No audit records found for this bet.</p>
-            )
-          )}
-        </section>
       )}
     </section>
   );
